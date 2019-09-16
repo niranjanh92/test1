@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-main()
-{
+main(){
 big3();
 palindrome();
 }
