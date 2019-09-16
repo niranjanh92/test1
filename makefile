@@ -1,4 +1,4 @@
-ABC.exe : big3.o palindrome.o
+ABC.exe : big3.o palindrome.o main.o
 	gcc -o ABC.exe main.o big3.o palindrome.o
 main.o : main.c
 	gcc -c main.c
